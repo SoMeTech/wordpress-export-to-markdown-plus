@@ -145,7 +145,7 @@ async function loadImageFilePromise(imageUrl) {
 		method: 'get',
 		url,
 		headers: {
-			'User-Agent': 'wordpress-export-to-markdown'
+			'User-Agent': 'wordpress-export-to-markdown-plus'
 		},
 		responseType: 'arraybuffer'
 	};

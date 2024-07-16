@@ -1,4 +1,4 @@
-# wordpress-export-to-markdown
+# wordpress-export-to-markdown-plus
 
 Converts a WordPress export file into Markdown files that are compatible with static site generators ([Eleventy](https://www.11ty.dev/), [Gatsby](https://www.gatsbyjs.com/), [Hugo](https://gohugo.io/), etc.).
 
@@ -17,7 +17,7 @@ To make things easier, you can rename your WordPress export file to `export.xml`
 You can run this script immediately in your terminal with `npx`:
 
 ```
-npx wordpress-export-to-markdown
+npx wordpress-export-to-markdown-plus
 ```
 
 Or you can clone this repo, then from within the repo's directory, install and run:
@@ -35,7 +35,7 @@ Options can also be configured via the command line. The wizard will skip asking
 Using `npx`:
 
 ```
-npx wordpress-export-to-markdown --post-folders=false --prefix-date=true
+npx wordpress-export-to-markdown-plus --post-folders=false --prefix-date=true
 ```
 
 Using a locally cloned repo:
@@ -141,10 +141,10 @@ Some WordPress sites make use of a `"page"` post type and/or custom post types. 
 
 ## Customizing Frontmatter and Other Advanced Settings
 
-You can edit [settings.js](https://github.com/lonekorean/wordpress-export-to-markdown/blob/master/src/settings.js) to configure advanced settings beyond the options above. This includes things like customizing frontmatter, date formatting, throttling image downloads, and more.
+You can edit [settings.js](https://github.com/sometech/wordpress-export-to-markdown-plus/blob/master/src/settings.js) to configure advanced settings beyond the options above. This includes things like customizing frontmatter, date formatting, throttling image downloads, and more.
 
 You'll need to run the script locally (not using `npx`) to edit these advanced settings.
 
 ## Contributing
 
-Please read the [contribution guidelines](https://github.com/lonekorean/wordpress-export-to-markdown/blob/master/CONTRIBUTING.md).
+Please read the [contribution guidelines](https://github.com/sometech/wordpress-export-to-markdown-plus/blob/master/CONTRIBUTING.md).

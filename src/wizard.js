@@ -163,7 +163,7 @@ function parseCommandLine(argv) {
 		.version('v' + package.version, '-v, --version', 'Display version number')
 		.helpOption('-h, --help', 'See the thing you\'re looking at right now')
 		.on('--help', () => {
-			console.log('\nMore documentation is at https://github.com/lonekorean/wordpress-export-to-markdown');
+			console.log('\nMore documentation is at https://github.com/sometech/wordpress-export-to-markdown-plus');
 		});
 
 	options.forEach(input => {

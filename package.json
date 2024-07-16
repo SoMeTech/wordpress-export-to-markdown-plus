@@ -1,9 +1,9 @@
 {
-	"name": "wordpress-export-to-markdown",
+	"name": "wordpress-export-to-markdown-plus",
 	"version": "2.4.0",
 	"description": "Converts a WordPress export XML file into Markdown files.",
 	"main": "index.js",
-	"repository": "https://github.com/lonekorean/wordpress-export-to-markdown.git",
+	"repository": "https://github.com/sometech/wordpress-export-to-markdown-plus.git",
 	"keywords": [
 		"blog",
 		"convert",
@@ -35,6 +35,6 @@
 		"eslint": "^6.8.0"
 	},
 	"bin": {
-		"wordpress-export-to-markdown": "./index.js"
+		"wordpress-export-to-markdown-plus": "./index.js"
 	}
 }
